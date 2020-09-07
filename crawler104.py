@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import time
 
+
 # 爬取104職缺
 keyword = input("關鍵字(例：職稱、公司名、技能專長...) : ")
 for page in range(1, 11):  # 爬取1-10頁
